@@ -1,5 +1,5 @@
 ♻️ Waste Image Classifier
 
-This project is an AI-based waste classification system that allows users to upload an image of garbage and automatically identifies its category (such as plastic, metal, glass, paper, etc.) using a deep learning model based on MobileNetV2 transfer learning.
+This project is a deep learning–based waste classification system that identifies garbage types from uploaded images using a MobileNetV2 transfer learning model. The application allows users to upload an image, predicts the waste category (such as plastic, metal, glass, etc.), and provides region-specific disposal guidance.
 
-After predicting the waste type, the application provides region-specific disposal instructions and redirects users to nearby recycling centers or dump yards through Google Maps integration. The goal of this project is to promote proper waste segregation and encourage environmentally responsible disposal practices using intelligent automation.
+The system is deployed using Streamlit and integrates Google Maps search to help users locate nearby recycling centers or appropriate dump yards based on their selected location. The goal of this project is to promote proper waste segregation and encourage sustainable waste management practices through AI-driven automation.
